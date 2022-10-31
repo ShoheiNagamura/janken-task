@@ -1,0 +1,192 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background: url("/img/haikei.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    /* opacity: 20%; */
+    background: rgba(0, 157, 255, 0.5);
+}
+
+header h1 {
+    color: aliceblue;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.janken {
+    width: 80%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.user {
+    background-color: aliceblue;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 8px solid black;
+    padding: 16px 0px;
+    box-shadow: 12px 12px 11px -5px rgba(0, 0, 0, 0.6);
+}
+
+.user-select button {
+    background-color: aqua;
+}
+
+.vs img {
+    font-size: 70px;
+    /* margin: 0px 30px; */
+    font-weight: bold;
+    /* width: 260px; */
+    height: 140px;
+    display: none;
+}
+
+.hand-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p-hand-box {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: none;
+}
+
+.c-hand-box p {
+    font-size: 80px;
+    cursor: pointer;
+    text-align: center;
+    color: aliceblue;
+}
+
+.c-hand-box {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: none;
+}
+
+.com-hand {
+    width: 120px;
+}
+
+.p-hand-box p {
+    font-size: 80px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.gu {
+    width: 50%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.choki {
+    width: 50%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pa {
+    width: 50%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.com {
+    background-color: aliceblue;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 8px solid black;
+    padding: 16px 0px;
+    box-shadow: 12px 12px 11px -5px rgba(0, 0, 0, 0.6);
+}
+
+.com-select button {
+    background-color: aqua;
+}
+
+.result {
+    margin-bottom: 50px;
+    width: 100%;
+    height: 50px;
+    font-size: 60px;
+    text-align: center;
+    display: none;
+}
+
+.result p {
+    border-bottom: 3px solid blue;
+    color: aliceblue;
+    box-shadow: -5px -5px 15px 5px rgba(61, 255, 0, 0.46), 5px 5px 15px 7px rgba(0, 213, 83, 0.8);
+}
+
+
+h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+button {
+    margin-top: 30px;
+    width: 200px;
+    height: 50px;
+    font-size: 16px;
+    border-radius: 20px;
+}
+
+.start-janken {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.start-janken button {
+    background-color: red;
+    font-size: 20px;
+    color: aliceblue;
+}
