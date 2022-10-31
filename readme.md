@@ -10,3 +10,6 @@
 - じゃんけん後、最初の画面に戻す、もしくは繰り返し
 じゃんけんを行えるようにしたかったのですが、提出までに間に合い
 ませんでした。
+
+## URL
+https://shoheinagamura.github.io/janken-task/
