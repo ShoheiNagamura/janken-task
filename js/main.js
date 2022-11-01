@@ -6,7 +6,7 @@ $(".user-select").on("click", function () {
     const user_chara = parseInt(prompt("ヘムヘムは１、稗田八宝菜は２をお選びください。"));
     if (user_chara === 1) {
         $(".user-name").text("ヘムヘム");
-        $('.user').children('img').attr('src', '../img/hemhem-defo.png');
+        $('.user').children('img').attr('src', 'https://github.com/ShoheiNagamura/janken-task/blob/main/img/hemhem-defo.png?raw=true');
     } else if (user_chara === 2) {
         $(".user-name").text("稗田八宝菜");
         $('.user').children('img').attr('src', '../img/hieta-defo.jpg');
